@@ -1,0 +1,21 @@
+.container {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #3e3e3e;
+  color: white;
+  padding: 0px 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+}
+
+.menu > li {
+  margin-left: 20px;
+}
