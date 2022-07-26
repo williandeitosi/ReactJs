@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    background-color: rgba(165, 42, 42, 0.671);
+    margin: auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    margin-right: 20px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 0 10px 10px 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+
+}
