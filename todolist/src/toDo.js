@@ -15,13 +15,20 @@ function ToDo() {
 
         setItems ([...items, it])
     }
+
+    function onItemDeleted (item) {
+
+      let filteredItems = items.filter(it => it.id != item.id)
+
+      setItems(filteredItems)
+    }
     
 
   return (
     <div className="container">
       <h1>ToDo List</h1>
       <Form onAddItem = {onAddItem}></Form>
-      <List items={items}></List>
+      <List onItemDeleted = {onItemDeleted} items={items}></List>
     </div>
   );
 }
